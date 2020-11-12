@@ -59,7 +59,7 @@
     })
 
     // Insert copy to clipboard button before .highlight
-    $('figure.highlight, div.highlight').each(function () {
+    $('div.highlight').each(function () {
       var btnHtml = '<div class="bd-clipboard"><button type="button" class="btn-clipboard" title="Copy to clipboard">Copy</button></div>'
       $(this).before(btnHtml)
       $('.btn-clipboard')
